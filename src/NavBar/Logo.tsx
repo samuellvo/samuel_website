@@ -4,7 +4,7 @@ import '../sheets/NavStyle.css'
 
 function Logo(){
     return (
-        <img src={require("../images/logo.jpeg")} alt="logo"></img>
+        <img className="logo" src={require("../images/logo.jpeg")} alt="logo"></img>
     )
 }
 

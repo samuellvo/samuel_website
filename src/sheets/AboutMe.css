@@ -1,0 +1,53 @@
+#aboutMe{
+    position: relative;
+    padding-left:5%; padding-right: 5%; padding-bottom: 5%;
+    background-color: black;
+    height: 30%;
+    border-bottom: white solid 0.3vh;
+}
+#aboutMeContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin-right: 15%;
+    justify-content: center;
+    position:relative;
+    transition: ease-in-out;
+    opacity: 0;
+}
+.aboutMeText {
+    margin-top: 0;
+}
+#aboutMeTop {
+    border-bottom: 3px white solid; 
+    background-color: black;
+    border-top: 3px white solid;
+    margin-top: 0%;
+    height:20%;
+}
+#aboutMeHey {
+    font-family:Varela;
+    color:#ED4A3D;
+    font-size: 2vw;
+    position:relative;
+}
+#aboutMeHeader {
+    color:white;
+    font-size: 3vw;
+
+}
+img.portrait{
+    object-fit: cover;
+    max-height: 150px;
+    max-width: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 3px solid #ED4A3D;
+}
+
+@media only screen and (max-height: 1370px ) and (orientation:portrait){
+    #aboutMeTop{max-height: vh;}
+    #aboutMeHey, #aboutMeHeader {
+        font-size: 1.6vh;
+    }
+}

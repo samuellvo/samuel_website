@@ -1,0 +1,29 @@
+
+
+.backgroundMountain {
+    display: flex;
+    z-index: 10;
+    margin-top: 0%;
+    width: 100%;
+}
+.bigText {
+    font-family: 'Roboto Mono', monospace;
+    text-shadow: 3px 4px 1px #1F2937;
+    position: absolute; top: 37.5%; right:20%; left:20%;
+    color:white;
+    font-size: 5vw;
+    animation: fadeOntoPage 1s ease-in-out;
+    animation-iteration-count: 1;
+    transition: 0.75s ease-in-out;
+}
+.bigText:hover {
+    transform:translateX(5%) scale(1.065); z-index: 999;
+}
+
+@media only screen and (max-height: 1370px) and (orientation:portrait) {
+    .bigText{
+        font-family: 'Roboto Mono', monospace;
+        margin-top: 0%;
+        font-size: vh;
+    }
+}
