@@ -6,6 +6,5 @@ Then, I used my student developer email to get GitHub Pages with Pro, and I went
 
 The plan is to make this repo the new page as I have remodularized everything, as previously, it really wasn't built for longevity. This time, it will be, and with cleaner and more modern methods rather than just the bare-bones. NPM will allow me to do cooler stuff, if I so choose, as well.
 
-## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
