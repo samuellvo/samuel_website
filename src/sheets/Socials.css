@@ -1,0 +1,43 @@
+.socialsAnimation a{position: relative; top: 26.5%;
+}
+.socialsAnimation {
+    background-color: white;
+    display: inline; margin-left: auto; margin-right: auto;
+    cursor: pointer;
+    flex: 1 1 0;
+    max-width: 32%;
+    height: 100%;
+    border:3.5px solid #1F2937; border-radius: 10px;
+    transition: transform 1.5s cubic-bezier(0, 1.53, 0.72, 0.83);
+    animation: fadeOntoPageLogo 2s;
+    animation-iteration-count: 1;
+}
+.socials {
+    display: flex; 
+    justify-content: center;
+    height: 10%;
+    padding:10px; max-width: 75%; margin-left: auto; margin-right: auto;
+    margin-bottom: 10%;
+    border: 1px solid black; border-radius: 20px;
+    animation: fadeOntoPageLogo 2s;
+    animation-iteration-count: 1;
+}
+.socials img {
+    max-width: 5vh; 
+    max-height: 5vh;
+}
+.socials, .socials a{
+    text-align: center; text-decoration: none; color:black; font-size: 1.5vw;
+    font-family: 'Roboto Mono', monospace;
+    margin-top:5%;
+}
+.socialsAnimation img {
+    transition:transform 1s;
+}
+.socialsAnimation:hover img {
+    transform: rotate(360deg) translateZ(0);
+}
+
+.socialsAnimation:hover {
+    transform:translateX(5%) scale(1.065); z-index:999;
+}

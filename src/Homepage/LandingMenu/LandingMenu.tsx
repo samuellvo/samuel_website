@@ -1,5 +1,5 @@
 import React from "react";
-import "../sheets/LandingMenu.css";
+import "../../sheets/LandingMenu.css"
 import LandingMenuButton from "./LandingMenuButton.tsx";
 
 function LandingMenu() {
