@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.628437a9.css",
+    "main.js": "/react-gh-pages/static/js/main.7268aac0.js",
+    "static/js/453.7fb8c719.chunk.js": "/react-gh-pages/static/js/453.7fb8c719.chunk.js",
+    "static/media/GIF.gif": "/react-gh-pages/static/media/GIF.a3485dc0a9e392fba147.gif",
+    "static/media/IMG_8245.png": "/react-gh-pages/static/media/IMG_8245.e2f6adaeadf5e994a55d.png",
+    "static/media/IMG_8245.HEIC": "/react-gh-pages/static/media/IMG_8245.b0dc48f8af3483fbbeb2.HEIC",
+    "static/media/ERASEDWALLPAPER.gif": "/react-gh-pages/static/media/ERASEDWALLPAPER.afbe1205215a363a6240.gif",
+    "static/media/logo.jpeg": "/react-gh-pages/static/media/logo.562ad837a2a7cec3502d.jpeg",
+    "static/media/redmountain.jpg": "/react-gh-pages/static/media/redmountain.b525795a7d9b9d6c9987.jpg",
+    "static/media/logohd-transparent.png": "/react-gh-pages/static/media/logohd-transparent.5c3b9dc7591c04ba2569.png",
+    "static/media/samvoResume.pdf": "/react-gh-pages/static/media/samvoResume.2ba46c724bbe2da38f7b.pdf",
+    "static/media/mountain.jpg": "/react-gh-pages/static/media/mountain.14922234ed8d9b07346b.jpg",
+    "static/media/bowloframen.png": "/react-gh-pages/static/media/bowloframen.e1993cda17695add5a29.png",
+    "static/media/iconEmail.png": "/react-gh-pages/static/media/iconEmail.ddfe431e16d6ca049b3c.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.628437a9.css.map": "/react-gh-pages/static/css/main.628437a9.css.map",
+    "main.7268aac0.js.map": "/react-gh-pages/static/js/main.7268aac0.js.map",
+    "453.7fb8c719.chunk.js.map": "/react-gh-pages/static/js/453.7fb8c719.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.628437a9.css",
+    "static/js/main.7268aac0.js"
+  ]
+}
