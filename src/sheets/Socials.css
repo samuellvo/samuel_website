@@ -11,12 +11,13 @@
     transition: transform 1.5s cubic-bezier(0, 1.53, 0.72, 0.83);
     animation: fadeOntoPageLogo 2s;
     animation-iteration-count: 1;
+    padding:1.5vh;
 }
 .socials {
     display: flex; 
     justify-content: center;
     height: 10%;
-    padding:10px; max-width: 75%; margin-left: auto; margin-right: auto;
+    padding:3vh; max-width: 75%; margin-left: auto; margin-right: auto;
     margin-bottom: 10%;
     border: 1px solid black; border-radius: 20px;
     animation: fadeOntoPageLogo 2s;

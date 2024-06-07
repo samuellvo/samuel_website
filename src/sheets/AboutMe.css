@@ -5,7 +5,7 @@
     height: 30%;
     border-bottom: white solid 0.3vh;
 }
-#aboutMeContainer{
+.aboutMeContainer{
     display: flex;
     flex-direction: row;
     gap: 10%;
@@ -19,14 +19,18 @@
     margin-top: 0;
 }
 #aboutMeTop {
+    font-family: 'Roboto Mono', monospace;
+    color:#ffff;
+    font-size: 3vh;
+    text-align: center;
     border-bottom: 3px white solid; 
     background-color: black;
     border-top: 3px white solid;
     margin-top: 0%;
-    height:20%;
+    height:20vh;
 }
 #aboutMeHey {
-    font-family:Varela;
+    font-family: 'Roboto Mono', monospace;
     color:#ED4A3D;
     font-size: 2vw;
     position:relative;
@@ -36,6 +40,15 @@
     font-size: 3vw;
 
 }
+
+#biography {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2vw;
+    color: white;
+    padding-bottom: 3.5vw;
+    border-bottom: white solid 1px; 
+}
+
 img.portrait{
     object-fit: cover;
     max-height: 150px;
@@ -43,6 +56,18 @@ img.portrait{
     margin-top: 10%;
     border-radius: 50%;
     border: 3px solid #ED4A3D;
+}
+
+.visibleAboutMe {
+    animation: fadeAboutMe 1s;
+    opacity: 1;
+
+}
+
+@keyframes fadeAboutMe {
+    0% {opacity: 0; margin-right:50%;}
+    25%{opacity: 0.25; margin-right:37.5%;}
+    100%{opacity: 1;}
 }
 
 @media only screen and (max-height: 1370px ) and (orientation:portrait){
