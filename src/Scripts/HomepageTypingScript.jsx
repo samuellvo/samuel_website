@@ -4,6 +4,7 @@ import Typed from "typed.js";
 export default function HomepageTyping(element1) {
     useEffect(() => 
     {
+        // documents: https://github.com/mattboldt/typed.js
         const typed = new Typed(element1.current, {
             strings: ['Coding . . .', 'Studying . . .', 'Eating . . .'],
             typeSpeed: 70,
