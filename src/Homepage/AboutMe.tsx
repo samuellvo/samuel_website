@@ -2,20 +2,16 @@ import React from "react";
 import { useRef} from "react";
 import ShowAboutMe from "../Scripts/AboutMe.jsx";
 import "../sheets/AboutMe.css"
-import HomepageTyping from "./HomepageTyping.tsx";
-import HomepageTypingScript from "../Scripts/HomepageTypingScript.jsx";
 
 function AboutMe() {
     const aboutMeTopRef = useRef() as React.MutableRefObject<HTMLDivElement>;
     const aboutMeRef = useRef() as React.MutableRefObject<HTMLDivElement>;
     const typingRef = useRef();
     ShowAboutMe(aboutMeTopRef, aboutMeRef)
-    HomepageTypingScript(typingRef)
     // above works similar to .getElementById("ID") but is now an arg
     return (
         <>
         <div id ="aboutMeTop" ref={aboutMeTopRef}>
-            <HomepageTyping ref={typingRef}/>
         </div>
         <div id="aboutMe">
         <div className="aboutMeContainer" ref={aboutMeRef}>

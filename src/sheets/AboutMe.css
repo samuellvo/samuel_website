@@ -19,15 +19,16 @@
     margin-top: 0;
 }
 #aboutMeTop {
-    font-family: 'Roboto Mono', monospace;
-    color:#ffff;
-    font-size: 3vh;
-    text-align: center;
     border-bottom: 3px white solid; 
     background-color: black;
     border-top: 3px white solid;
     margin-top: 0%;
     height:20vh;
+}
+.animatedTyping {    
+    font-family: 'Roboto Mono', monospace;
+    color:#ffff;
+    font-size: 3vh;
 }
 #aboutMeHey {
     font-family: 'Roboto Mono', monospace;

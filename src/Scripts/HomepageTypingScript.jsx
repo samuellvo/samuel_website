@@ -6,10 +6,9 @@ export default function HomepageTyping(element1) {
     {
         // documents: https://github.com/mattboldt/typed.js
         const typed = new Typed(element1.current, {
-            strings: ['Coding . . .', 'Studying . . .', 'Eating . . .'],
-            typeSpeed: 70,
-            backSpeed: 50,
-            loop: true
+            strings: ["Hi! I'm Sam. <br/> Welcome to my <br/> website."],
+            typeSpeed: 50,
+            loop: false
         })
 
         return () => {
